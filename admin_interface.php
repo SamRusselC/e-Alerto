@@ -42,7 +42,6 @@ $emergency_messages_query = mysqli_query($conn, "SELECT messages.*, user_form.fi
 
 
 
-
 // Fetch photos from the database
 $sql = "SELECT photo_path FROM photos";
 $result = $conn->query($sql);

@@ -4,6 +4,9 @@ session_start();
 $user_id = $_SESSION['user_id'];
 
 
+
+
+
 if (!isset($user_id)) {
    header('location:login.php');
 };
@@ -42,7 +45,7 @@ $emergency_messages_query = mysqli_query($conn, "SELECT messages.*, user_form.fi
 
 
 
-// Fetch photos from the database
+// Fetch photos from the databasevbnvbcvbnbcvbcvbcbcvbcvbvvbvbcvbcvbcv
 $sql = "SELECT photo_path FROM photos";
 $result = $conn->query($sql);
 
